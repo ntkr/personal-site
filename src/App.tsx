@@ -5,6 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+	  <section className="section is-medium">
+	  	<h1 className="title is-1">Ian Tucker</h1>
+	  </section>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
