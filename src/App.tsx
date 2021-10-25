@@ -1,28 +1,55 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './css/styles.css';
 
 
 function App() {
   return (
     <div className="App">
-	  <section className="section is-medium">
-	  	<h1 className="title is-1">Ian Tucker</h1>
+	  <section className="section is-medium has-background-dark">
+	  	<div className="container">
+		  <div className="level-item has-text-centered">
+			<h1 className="title is-1 has-text-light is-centered">
+				Ian Tucker
+			</h1>
+		  </div>
+		</div>
 	  </section>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+	  <section className="section is-medium has-background-light">
+	  	<div className="container">
+		  <div className="level-item has-text-centered">
+			<p>Ian is a developer that creates things. There are words here that describe him, but not too many words.</p>
+		  </div>
+		</div>
+	  </section>
+	  <section className="section has-background-dark">
+	  	<div className="container">
+		  <div className="level-item has-text-centered">
+			<h2 className="title is-2 has-text-light">areas of expertise</h2>
+		  </div>
+		</div>
+	  </section>
+	  <section className="section is-medium has-background-light">
+	  	<div className="container">
+		  <div className="level-item has-text-centered">
+			<h2 className="title is-2 has-text-dark">open-source projects</h2>
+		  </div>
+		</div>
+	  </section>
+	  <section className="section is-medium has-background-dark">
+	  	<div className="container">
+		  <div className="level-item has-text-centered">
+			<h2 className="title is-2 has-text-light">testimonials?</h2>
+		  </div>
+		</div>
+	  </section>
+	  <section className="section is-medium has-background-light">
+	  	<div className="container">
+		  <div className="level-item has-text-centered">
+			<h2 className="title is-2 has-text-dark">contact me!!</h2>
+		  </div>
+		</div>
+	  </section>
     </div>
   );
 }
